@@ -1,0 +1,8 @@
+models/
+outputs/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
+# Note: outputs/ is ignored by default to keep the repo small.
+# If you want to include the GIFs, move them to an 'assets' folder and track them explicitly.

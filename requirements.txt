@@ -1,0 +1,14 @@
+torch>=2.0.0
+diffusers>=0.25.0
+transformers
+accelerate
+safetensors
+peft
+sentencepiece
+imageio
+imageio-ffmpeg
+pyyaml
+tqdm
+numpy
+opencv-python
+Pillow

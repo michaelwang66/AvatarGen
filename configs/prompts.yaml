@@ -1,0 +1,58 @@
+# Prompt configuration for AvatarGen
+# Realistic Style - HR Quality
+
+models:
+  base_model: "SG161222/Realistic_Vision_V6.0_B1_noVAE"
+  motion_module: "guoyww/animatediff-motion-adapter-v1-5-2"
+  vae: "stabilityai/sd-vae-ft-mse"
+
+prompts:
+  male:
+    positive: >
+      a professional male Human resource manager avatar,
+      middle-aged man, 40 years old,
+      masculine face, strong jawline, defined facial structure,
+      short hair, clean-cut hairstyle,
+      light stubble beard,
+      confident and calm expression,
+      slight professional smile,
+      minimal motion, subtle facial changes, natural blinking,
+      wearing formal business suit and tie,
+      clean modern office background,
+      soft but neutral lighting,
+      consistent identity, stable face,
+      realistic, high quality
+
+    negative: >
+      female, woman, feminine, androgynous,
+      long hair, soft facial features, delicate face,
+      makeup, lipstick,
+      sci-fi, futuristic, helmet, cyber, robotic, armor, fantasy,
+      bad anatomy, deformed, lowres, text, error, cropped,
+      worst quality, low quality, jpeg artifacts, ugly,
+      dramatic expression, dynamic motion,
+      cinematic action, changing scene,
+      duplicate, out of frame, blurry, bad proportions
+  female:
+    positive: >
+      a professional female human resource manager avatar, 
+      friendly and approachable expression, slight smile, 
+      minimal motion, subtle facial changes, natural blinking, 
+      wearing business suit, 
+      clean office background, soft lighting, 
+      consistent identity, stable face, 
+      realistic, high quality
+    negative: >
+      sci-fi, futuristic, helmet, cyber, robotic, armor, fantasy, 
+      bad anatomy, deformed, lowres, text, error, cropped, 
+      worst quality, low quality, jpeg artifacts, ugly, 
+      duplicate, out of frame, blurry, bad proportions.
+
+settings:
+  num_frames: 16
+  width: 512
+  height: 512
+  resize_to: 268
+  guidance_scale: 7.5
+  num_inference_steps: 25
+  fps: 8
