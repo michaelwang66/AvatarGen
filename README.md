@@ -5,7 +5,7 @@ This project generates high-quality, professional dynamic avatar GIFs for male a
 ## Features
 - **Realistic Style**: Focused on professional, formal attire and corporate office settings.
 - **Auto-Resize**: Generates at 512x512 and automatically downscales to **268x268** for optimal avatar performance.
-- **Hardware Optimized**: Supports `fp16` and half-precision for RTX 30-series GPUs.
+- **Changeable prompt**: You can modify the prompt to suit your needs.
 
 ## Showcase
 
